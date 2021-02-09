@@ -12,7 +12,7 @@ public class NaughtyStudent extends Student {
     }
 
     public double getAverageGrade() {
-        double trueAverageGrade = this.getAverageGrade();
+        double trueAverageGrade = super.getAverageGrade();
         double increase = trueAverageGrade * 0.1;
         double falseAverageGrade = trueAverageGrade + increase;
         return falseAverageGrade;
