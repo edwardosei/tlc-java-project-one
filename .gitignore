@@ -5,7 +5,6 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-tlc-project-java.iml
 
 # Generated files
 .idea/**/contentModel.xml
@@ -41,7 +40,7 @@ tlc-project-java.iml
  .idea/modules.xml
  .idea/*.iml
  .idea/modules
- *.iml
+# *.iml
  *.ipr
 
 # CMake
@@ -52,7 +51,7 @@ cmake-build-*/
 
 # File-based project format
 *.iws
-*.iml
+#*.iml
 
 # IntelliJ
 out/
