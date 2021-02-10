@@ -11,6 +11,14 @@ public class NaughtyStudent extends Student {
         super(studentGrades, level);
     }
 
+    public NaughtyStudent(String name) {
+        super(name);
+    }
+
+    public NaughtyStudent(List<Double> studentGrades, String name, Level level) {
+        super(studentGrades, name, level);
+    }
+
     public double getAverageGrade() {
         double trueAverageGrade = super.getAverageGrade();
         double increase = trueAverageGrade * 0.1;

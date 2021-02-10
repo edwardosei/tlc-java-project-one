@@ -18,9 +18,9 @@ public class Lecture {
 
         double averageGrade = 0;
 
-        for (int i = 0; i < students.size(); i++) {
+        for (int i = 0; i < this.students.size(); i++) {
 
-            averageGrade = students.get(i).getAverageGrade();
+            averageGrade = this.students.get(i).getAverageGrade();
 
             if (averageGrade > highestAverageGrade)
                 highestAverageGrade = averageGrade;

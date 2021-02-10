@@ -31,6 +31,10 @@ public class Student implements Nameable, HasLevel {
 
     }
 
+    public Student(String name) {
+        this.name = name;
+    }
+
     public double getAverageGrade() {
 
         double total = 0;

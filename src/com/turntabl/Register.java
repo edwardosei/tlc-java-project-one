@@ -29,4 +29,8 @@ public class Register {
 //        studentOfLevel.add(studentNames);
         return studentNames;
     }
+
+    public String printReport(Level studentsInLevel) {
+        return null;
+    }
 }
